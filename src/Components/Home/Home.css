@@ -1,0 +1,60 @@
+.Player-Section {
+    background-image: linear-gradient(15deg, red 50%, yellow 20%);
+    width: calc(100% / 2);
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.headingColor {
+    font-style: italic;
+    color: purple;
+    text-align: center;
+}
+
+.prv-nxtSec {
+    margin-top: 20px;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.imgDiv{
+    margin-left: 130px;
+    width: 30%;
+    height: 80%;
+}
+.detailsDiv{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.headingtext{
+    color: darkturquoise;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+}
+.PrevNxtButton{
+    outline: none;
+    border: 0;
+    padding: 20px;
+    background: linear-gradient(269deg,#0048ff,#0096ff);
+    border-radius: 30%;
+    cursor: pointer;
+    color: #fff;
+}
+.unClickPrevNxtButton{
+    cursor: not-allowed;
+    outline: none;
+    border: 0;
+    color: #fff;
+    padding: 20px;
+    background-color: #a5aab9;
+    border-radius: 30%;
+}
